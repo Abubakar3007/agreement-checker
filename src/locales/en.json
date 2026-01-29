@@ -1,0 +1,312 @@
+{
+  "common": {
+    "appName": "Agreement Checker AI",
+    "upload": "Upload",
+    "analyze": "Analyze",
+    "download": "Download",
+    "copy": "Copy",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "save": "Save",
+    "back": "Back",
+    "next": "Next",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "home": "Home",
+    "upload": "Upload Document",
+    "dashboard": "My Documents",
+    "plans": "Plans & Pricing",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Sign Out",
+    "getStarted": "Get Started"
+  },
+  "landing": {
+    "hero": {
+      "title": "Sign any agreement with confidence",
+      "subtitle": "Upload your document and understand risks in 2 minutes. Get clear, simple explanations of loan papers, rental agreements, and job offers before signing.",
+      "cta": "Upload Document",
+      "features": "Free to use • No signup required • 100% secure"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "step1": {
+        "title": "1. Upload Document",
+        "description": "Upload your PDF or image file. Supports loan agreements, rental contracts, and job offers."
+      },
+      "step2": {
+        "title": "2. AI Analysis",
+        "description": "Our AI reads the document and identifies important clauses and potential risks in under 2 minutes."
+      },
+      "step3": {
+        "title": "3. Get Clear Summary",
+        "description": "Receive a simple summary with risk highlights and recommendations in easy-to-understand language."
+      }
+    },
+    "useCases": {
+      "title": "Perfect for these documents",
+      "loan": {
+        "title": "Loan Agreement",
+        "description": "Understand interest rates, penalties, hidden charges, and repayment terms before taking a loan."
+      },
+      "rental": {
+        "title": "Rental Agreement",
+        "description": "Check security deposit, maintenance charges, notice period, and termination clauses clearly."
+      },
+      "job": {
+        "title": "Job Offer Letter",
+        "description": "Review salary structure, notice period, bond amount, and non-compete clauses before accepting."
+      }
+    },
+    "disclaimer": {
+      "title": "Important: This is NOT legal advice",
+      "description": "Agreement Checker AI is an informational tool designed to help you understand documents better. The analysis provided is for awareness purposes only and should not be considered legal advice.",
+      "footer": "For legal matters, please consult a qualified lawyer. We prioritize your privacy - all uploads are secure and your data is never shared."
+    }
+  },
+  "upload": {
+    "title": "Upload Your Document",
+    "subtitle": "Upload your agreement, loan paper, rental contract, or job offer letter for instant analysis",
+    "dropzone": "Drop your document here",
+    "or": "or",
+    "browse": "Browse Files",
+    "supported": "Supports PDF, JPG, PNG (Max 10MB)",
+    "analyzeButton": "Analyze Document",
+    "whatNext": {
+      "title": "What happens next?",
+      "point1": "Our AI will analyze your document in under 2 minutes",
+      "point2": "You'll receive a simple summary with risk highlights",
+      "point3": "Get actionable recommendations before signing",
+      "point4": "Your document is processed securely and never shared"
+    },
+    "agreement": "By uploading, you agree to our"
+  },
+  "processing": {
+    "title": "Analyzing Your Document",
+    "messages": {
+      "reading": "Reading document...",
+      "analyzing": "Analyzing content...",
+      "finding": "Finding risky clauses...",
+      "checking": "Checking terms and conditions...",
+      "preparing": "Preparing simple summary...",
+      "almost": "Almost ready..."
+    },
+    "steps": {
+      "uploaded": "Document uploaded",
+      "analyzing": "AI analysis in progress",
+      "generating": "Generating report"
+    },
+    "wait": "This usually takes less than 2 minutes. Please don't close this page."
+  },
+  "result": {
+    "title": "Analysis Complete",
+    "verdict": {
+      "safe": "Safe",
+      "mediumRisk": "Medium Risk",
+      "unsafe": "Unsafe"
+    },
+    "riskScore": "Risk Score",
+    "summary": "Document Summary",
+    "recommendation": {
+      "title": "Our Recommendation"
+    },
+    "disclaimer": {
+      "title": "Important Disclaimer",
+      "text": "This analysis is for informational purposes only and does not constitute legal advice. Always consult a qualified lawyer for legal matters. Agreement Checker AI is not responsible for any decisions made based on this analysis."
+    },
+    "actions": {
+      "copy": "Copy Summary",
+      "copied": "Copied!",
+      "download": "Download Report",
+      "another": "Analyze Another Document"
+    },
+    "support": "Need help understanding something?"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to access your documents",
+      "email": "Email Address",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "button": "Sign In",
+      "signing": "Signing in...",
+      "noAccount": "Don't have an account?"
+    },
+    "signup": {
+      "title": "Create Account",
+      "subtitle": "Start analyzing your documents today",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "passwordHint": "At least 6 characters",
+      "terms": "I accept the",
+      "button": "Create Account",
+      "creating": "Creating account...",
+      "hasAccount": "Already have an account?"
+    },
+    "forgot": {
+      "title": "Reset Password",
+      "subtitle": "Enter your email and we'll send you a link to reset your password",
+      "email": "Email Address",
+      "button": "Send Reset Link",
+      "sending": "Sending...",
+      "success": {
+        "title": "Check Your Email",
+        "message": "We've sent a password reset link to"
+      }
+    }
+  },
+  "dashboard": {
+    "title": "My Documents",
+    "subtitle": "View and manage all your analyzed documents",
+    "uploadNew": "Upload New",
+    "empty": {
+      "title": "No documents yet",
+      "subtitle": "Upload your first document to get started with AI analysis"
+    },
+    "status": {
+      "pending": "Pending",
+      "analyzing": "Analyzing",
+      "analyzed": "Analyzed",
+      "failed": "Failed"
+    },
+    "viewResult": "View Result",
+    "deleteModal": {
+      "title": "Delete Document",
+      "message": "Are you sure you want to delete this document? This action cannot be undone."
+    }
+  },
+  "plans": {
+    "title": "Choose Your Plan",
+    "subtitle": "Select the perfect plan for your document analysis needs",
+    "billing": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "save": "Save 20%"
+    },
+    "popular": "Most Popular",
+    "free": {
+      "name": "Free",
+      "price": "₹0",
+      "period": "/month",
+      "description": "Perfect for trying out our service",
+      "features": [
+        "3 documents per month",
+        "Basic analysis",
+        "Standard support",
+        "7-day history"
+      ],
+      "cta": "Get Started"
+    },
+    "basic": {
+      "name": "Basic",
+      "price": "₹299",
+      "period": "/month",
+      "description": "For individuals who need regular analysis",
+      "features": [
+        "25 documents per month",
+        "Advanced analysis",
+        "Priority support",
+        "30-day history",
+        "Download reports",
+        "No watermarks"
+      ],
+      "cta": "Choose Basic"
+    },
+    "premium": {
+      "name": "Premium",
+      "price": "₹999",
+      "period": "/month",
+      "description": "For businesses and power users",
+      "features": [
+        "Unlimited documents",
+        "Advanced AI analysis",
+        "24/7 Priority support",
+        "Unlimited history",
+        "Download & share reports",
+        "API access",
+        "Custom templates",
+        "Team collaboration"
+      ],
+      "cta": "Choose Premium"
+    },
+    "currentPlan": "Current Plan",
+    "upgrade": "Upgrade"
+  },
+  "payment": {
+    "select": {
+      "title": "Complete Your Purchase",
+      "planSummary": "Plan Summary",
+      "billingDetails": "Billing Details",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "pincode": "Pincode",
+      "paymentMethod": "Payment Method",
+      "methods": {
+        "upi": "UPI",
+        "card": "Card",
+        "netbanking": "Net Banking",
+        "wallet": "Wallet"
+      },
+      "orderSummary": "Order Summary",
+      "subtotal": "Subtotal",
+      "tax": "Tax (18% GST)",
+      "total": "Total",
+      "coupon": "Have a coupon code?",
+      "apply": "Apply",
+      "terms": "I agree to the terms and conditions",
+      "button": "Proceed to Payment",
+      "processing": "Processing..."
+    },
+    "success": {
+      "title": "Payment Successful!",
+      "subtitle": "Thank you for your purchase",
+      "transactionId": "Transaction ID",
+      "plan": "Plan",
+      "amount": "Amount Paid",
+      "validity": "Valid Until",
+      "receipt": "Download Receipt",
+      "dashboard": "Go to Dashboard",
+      "message": "Your subscription has been activated successfully. You can now enjoy all the features of your plan."
+    },
+    "failed": {
+      "title": "Payment Failed",
+      "subtitle": "We couldn't process your payment",
+      "reason": "Reason",
+      "reasons": {
+        "insufficient": "Insufficient funds",
+        "declined": "Payment declined by bank",
+        "timeout": "Payment timeout",
+        "invalid": "Invalid payment details",
+        "unknown": "Unknown error occurred"
+      },
+      "retry": "Retry Payment",
+      "change": "Try Different Payment Method",
+      "support": "Contact Support",
+      "message": "Don't worry, your card was not charged. Please try again or contact support if the issue persists."
+    }
+  },
+  "footer": {
+    "tagline": "Understanding agreements made simple",
+    "product": "Product",
+    "legal": "Legal",
+    "support": "Support",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "disclaimer": "Disclaimer",
+    "help": "Help Center",
+    "contact": "Contact Us",
+    "copyright": "© 2024 Agreement Checker AI. All rights reserved."
+  }
+}
