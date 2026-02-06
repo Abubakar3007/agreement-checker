@@ -12,7 +12,7 @@ export const LanguageToggle = () => {
   return (
     <button
       onClick={toggleLanguage}
-      className="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors text-gray-700 hover:text-gray-900"
+      className="flex items-center px-3 py-2 space-x-2 text-gray-700 transition-colors rounded-lg hover:bg-gray-100 hover:text-gray-900"
       aria-label="Toggle language"
     >
       <Globe className="w-5 h-5" />

@@ -48,6 +48,15 @@
         "description": "Receive a simple summary with risk highlights and recommendations in easy-to-understand language."
       }
     },
+    "trust": {
+      "title": "Why people trust Agreement Checker AI",
+      "points": [
+        "Built to explain agreements in simple language",
+        "Focused on awareness, not replacing lawyers",
+        "Designed for everyday people, not legal experts",
+        "Secure processing with privacy-first approach"
+      ]
+    },
     "useCases": {
       "title": "Perfect for these documents",
       "loan": {
@@ -63,28 +72,78 @@
         "description": "Review salary structure, notice period, bond amount, and non-compete clauses before accepting."
       }
     },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Is this legal advice?",
+          "a": "No. Agreement Checker AI provides informational insights only and should not be considered legal advice."
+        },
+        {
+          "q": "Is my document stored or shared?",
+          "a": "No. Your document is processed securely and is not shared with third parties."
+        },
+        {
+          "q": "What file formats are supported?",
+          "a": "PDF and image files such as JPG and PNG are supported."
+        },
+        {
+          "q": "Is this free to use?",
+          "a": "Yes. You can analyze documents for free with basic features."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Your privacy matters",
+      "points": [
+        "Documents are used only for analysis",
+        "No resale or sharing of uploaded files",
+        "You remain the owner of your data",
+        "Files are automatically deleted after processing"
+      ]
+    },
     "disclaimer": {
       "title": "Important: This is NOT legal advice",
-      "description": "Agreement Checker AI is an informational tool designed to help you understand documents better. The analysis provided is for awareness purposes only and should not be considered legal advice.",
-      "footer": "For legal matters, please consult a qualified lawyer. We prioritize your privacy - all uploads are secure and your data is never shared."
+      "description": "Agreement Checker AI is an informational tool designed to help you understand documents better. The analysis is for awareness purposes only and should not be considered legal advice.",
+      "footer": "For legal matters, please consult a qualified lawyer. We prioritize your privacy — your data is secure and never shared."
+    },
+    "finalCta": {
+      "title": "Understand before you sign",
+      "subtitle": "Upload your agreement and get clarity in minutes. No pressure. No commitment.",
+      "cta": "Upload Document"
     }
   },
   "upload": {
-    "title": "Upload Your Document",
-    "subtitle": "Upload your agreement, loan paper, rental contract, or job offer letter for instant analysis",
-    "dropzone": "Drop your document here",
-    "or": "or",
-    "browse": "Browse Files",
-    "supported": "Supports PDF, JPG, PNG (Max 10MB)",
-    "analyzeButton": "Analyze Document",
-    "whatNext": {
-      "title": "What happens next?",
-      "point1": "Our AI will analyze your document in under 2 minutes",
-      "point2": "You'll receive a simple summary with risk highlights",
-      "point3": "Get actionable recommendations before signing",
-      "point4": "Your document is processed securely and never shared"
+    "title": "Upload Your Form",
+    "subtitle": "Upload a PDF or image — AI will explain it",
+    "credits": "Credits remaining: {{count}}",
+    "drop": {
+      "idle": "Drag your file here or click to upload",
+      "dragging": "Drop it here",
+      "formats": "PDF, JPG, PNG • Max 10MB",
+      "choose": "Choose File",
+      "selected": "File selected!",
+      "remove": "Remove"
     },
-    "agreement": "By uploading, you agree to our"
+    "fileTypes": {
+      "pdf": "PDF",
+      "image": "JPG / PNG"
+    },
+    "cta": {
+      "explain": "Explain Now",
+      "login": "Login to Continue"
+    },
+    "secureNote": "Your file is secure. It will only be used for explanation.",
+    "errors": {
+      "invalidType": "Only PDF or image files (JPG, PNG) are allowed",
+      "fileTooLarge": "File size must be less than 10MB",
+      "uploadFailedTitle": "Upload Failed",
+      "uploadFailedDesc": "There was an error uploading the file. Please try again.",
+      "noCreditsTitle": "No Credits Left",
+      "noCreditsDesc": "You don’t have enough credits. Please upgrade your plan.",
+      "invalidFileTitle": "Invalid File",
+      "retry": "Try Again"
+    }
   },
   "processing": {
     "title": "Analyzing Your Document",
@@ -298,7 +357,7 @@
     }
   },
   "footer": {
-    "tagline": "Understanding agreements made simple",
+    "tagline": "Agreement Checker AI helps you understand agreements in simple language by extracting the most important points. This tool is for informational purposes only.",
     "product": "Product",
     "legal": "Legal",
     "support": "Support",
